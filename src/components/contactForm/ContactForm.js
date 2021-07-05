@@ -49,7 +49,7 @@ class ContactForm extends Component {
         <label className={styles.label}>
           Name
           <input
-            className={styles.input}
+            className={styles.formInput}
             type="text"
             name="name"
             onChange={this.handleChange}
@@ -63,7 +63,7 @@ class ContactForm extends Component {
         <label className={styles.label}>
           Number
           <input
-            className={styles.input}
+            className={styles.formInput}
             type="tel"
             name="number"
             onChange={this.handleChange}
@@ -75,7 +75,7 @@ class ContactForm extends Component {
           />
         </label>
 
-        <button type="submit" className={styles.formBtn}>
+        <button type="submit" className={styles.formButton}>
           Add contact
         </button>
       </form>
